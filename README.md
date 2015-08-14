@@ -69,11 +69,6 @@ Earlier versions may also work, but come with no guarantees.
 - Chrome 38+
 
 
-API Documentation
------------------
-[API Docs](http://phosphorjs.github.io/phosphor-signaling/)
-
-
 Usage Examples
 --------------
 
@@ -286,3 +281,8 @@ var disconnectEmitter = require('phosphor-signaling').disconnectEmitter;
 
 disconnectEmitter(m1);
 ```
+
+
+API Documentation
+-----------------
+[API Docs](http://phosphorjs.github.io/phosphor-signaling/)
