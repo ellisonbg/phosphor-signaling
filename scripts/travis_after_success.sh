@@ -22,4 +22,6 @@ then
     git push origin gh-pages
 else
     echo "-- will only build docs from master --"
+    echo $TRAVIS_PULL_REQUEST
+    echo $TRAVIS_BRANCH
 fi
