@@ -61,7 +61,7 @@ Usage Examples
 
 **Start by defining the model object and its signals:**
 
-`TypeScript`
+*TypeScript*
 ```typescript
 import { ISignal, signal } from 'phosphor-signaling';
 
@@ -94,7 +94,7 @@ class Model {
 }
 ```
 
-`ES5`
+*ES5*
 ```javascript
 var signal = require('phosphor-signaling').signal;
 
@@ -132,7 +132,7 @@ If the same handler is connected to multiple signals, it may want to get a refer
 to the object emitting the signal which caused it to be invoked. This
 can be done with the `emitter()` function.
 
-`TypeScript`
+*TypeScript*
 ```typescript
 import { emitter } from 'phosphor-signaling';
 
@@ -170,7 +170,7 @@ class ItemCounter {
 }
 ```
 
-`ES5`
+*ES5*
 ```javascript
 var emitter = require('phosphor-signaling').emitter;
 
@@ -238,14 +238,14 @@ m3.addItem('hen');
 
 **Disconnect the logger from all models in a single-shot:**
 
-`TypeScript`
+*TypeScript*
 ```
 import { disconnectReceiver } from 'phosphor-signaling';
 
 disconnectReceiver(logger);
 ```
 
-`ES5`
+*ES5*
 ```
 var disconnectReceiver = require('phosphor-signaling').disconnectReceiver;
 
@@ -255,14 +255,14 @@ disconnectReceiver(logger);
 
 **Disconnect a particular model from all handlers in a single-shot:**
 
-`TypeScript`
+*TypeScript*
 ```
 import { disconnectEmitter } from 'phosphor-signaling';
 
 disconnectEmitter(m1);
 ```
 
-`ES5`
+*ES5*
 ```
 var disconnectEmitter = require('phosphor-signaling').disconnectEmitter;
 
