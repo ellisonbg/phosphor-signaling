@@ -45,6 +45,18 @@ npm test
 ```
 
 
+Build Docs
+----------
+
+Follow the source build instructions first.
+
+```bash
+npm run docs
+```
+
+Navigate to `docs/index.html`.
+
+
 Supported Runtimes
 ------------------
 The runtime versions which are currently *known to work* are listed below.
