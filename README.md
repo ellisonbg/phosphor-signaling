@@ -3,6 +3,8 @@ phosphor-signaling
 
 A module for type-safe inter-object communication.
 
+[API Docs](http://phosphorjs.github.io/phosphor-signaling/)
+
 
 Package Install
 ---------------
@@ -281,8 +283,3 @@ var disconnectEmitter = require('phosphor-signaling').disconnectEmitter;
 
 disconnectEmitter(m1);
 ```
-
-
-API Documentation
------------------
-[API Docs](http://phosphorjs.github.io/phosphor-signaling/)
