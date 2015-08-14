@@ -1,0 +1,7 @@
+*.suo
+*.user
+.DS_Store
+build
+test/*.js
+lib
+node_modules
