@@ -12,6 +12,9 @@ then
     cd travis_docs_build
     git checkout gh-pages
 
+    ls ../
+    ls ../docs
+
     echo "https://${GHTOKEN}:@github.com" > .git/credentials
     git config credential.helper "store --file=.git/credentials"
 
@@ -22,6 +25,4 @@ then
     git push origin gh-pages
 else
     echo "-- will only build docs from master --"
-    echo $TRAVIS_PULL_REQUEST
-    echo $TRAVIS_BRANCH
 fi
