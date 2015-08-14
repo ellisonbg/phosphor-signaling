@@ -12,9 +12,6 @@ then
     cd travis_docs_build
     git checkout gh-pages
 
-    ls ../
-    ls ../docs
-
     echo "https://${GHTOKEN}:@github.com" > .git/credentials
     git config credential.helper "store --file=.git/credentials"
 
