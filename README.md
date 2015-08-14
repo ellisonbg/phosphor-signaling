@@ -59,6 +59,7 @@ Navigate to `docs/index.html`.
 
 Supported Runtimes
 ------------------
+
 The runtime versions which are currently *known to work* are listed below.
 Earlier versions may also work, but come with no guarantees.
 
@@ -66,6 +67,11 @@ Earlier versions may also work, but come with no guarantees.
 - IE 11+
 - Firefox 32+
 - Chrome 38+
+
+
+API Documentation
+-----------------
+[API Docs](http://phosphorjs.github.io/phosphor-signaling/)
 
 
 Usage Examples
