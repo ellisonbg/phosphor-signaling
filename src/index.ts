@@ -148,7 +148,7 @@ function signal(proto: any, name: string): void {
 
 
 /**
- * Get the object which is emitting the curent signal.
+ * Get the object which is emitting the current signal.
  *
  * @returns The object emitting the current signal, or `null` if a
  *   signal is not currently being emitted.
