@@ -258,7 +258,7 @@ function clearSignalData(obj: any): void {
 /**
  * A concrete implementation of ISignal.
  */
-class Signal implements ISignal<any> {
+export class Signal implements ISignal<any> {
   /**
    * Construct a new signal.
    */
